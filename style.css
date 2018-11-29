@@ -1,6 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+  }
+
+  body {
+    background-image: url('https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   a {
@@ -8,4 +18,63 @@ body * {
   }
   
   /** your styles go here **/
-  
+
+  nav {
+      position: fixed;
+      background: grey;
+      width: 100%;
+      padding: 0 60px 0 60px;
+  }
+
+  nav > img {
+      position: absolute;
+      height: 77px;
+      border: 1px solid black;
+      border-radius: 40px;
+      top: 6px;
+  }
+
+  ul {
+    padding: 14px 0 23px 109px;
+}
+
+  li {
+      display: inline;
+}
+
+li>a::after {
+    content: ' |';
+}
+
+main {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    top: 260px;
+    
+}
+
+.box {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border: 10px dotted white;
+    margin: auto;
+}
+
+.cat {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -85px;
+    left: -83px;
+}
+
+.dog {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 205px;
+    left: 447px;
+}
