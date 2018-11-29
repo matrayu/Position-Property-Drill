@@ -1,0 +1,1 @@
+To practice the position settings we just discussed, we'd like you to spend up to but no more than 1 hour attempting to code up the design below. We'll describe the order you should code things up in, and you'll try to get as much of the layout done as possible within this time constraint.
